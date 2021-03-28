@@ -1,0 +1,59 @@
+
+
+.works {
+}
+
+.work {
+  display: grid;
+  grid-template-rows: 48px 1fr;
+  grid-template-columns: 280px 1fr;
+  grid-template-areas:
+    "title title"
+    "image desc";
+  background-color: #ffffff;
+  margin: 1rem 2rem;
+  padding: 0;
+  border-radius: .5rem;
+}
+
+.workTitle {
+  grid-area: title;
+  margin: 0;
+  height: 100%;
+  background-color: #cccccc;
+  border-radius: .5rem .5rem 0 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.workImage {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  grid-area: image;
+}
+
+.workDescription {
+  grid-area: desc;
+  margin: 1rem;
+  text-align: left;
+}
+
+.workDescription p:first-child {
+  margin: 0;
+}
+
+.workDescription h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.workLinks {
+  display: flex;
+}
+
+.workLinks a:not(:first-child) {
+  margin-left: 1rem;
+}

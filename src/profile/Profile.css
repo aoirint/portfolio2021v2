@@ -1,0 +1,15 @@
+.logo {
+  margin: 0.5rem;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.linkItem {
+  font-size: 120%;
+  margin: 0 1rem;
+}
